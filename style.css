@@ -1,0 +1,56 @@
+h1 {
+    color: green;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2 {
+    color: red;
+}
+
+body{
+    background-color: aqua;
+    margin: 30px;
+}
+
+/* p{
+    color: blueviolet;
+    font-size: 25px;
+    font-family: sans-serif;
+} */
+
+img{
+    /* border-top: 2px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: brown; */
+    /* border: 5px solid black; */
+    border-radius: 30px;
+    /* padding: 5px; */
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 30px;
+}
+
+.purple-text{
+    color: blueviolet;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#red-text{
+    color: orangered;
+    font-size: 25px;
+}
+
+/* .pink{
+    background-color: hotpink;
+} */
+
+.container{
+    display: flex;
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between; */
+    justify-content: space-around;
+}
