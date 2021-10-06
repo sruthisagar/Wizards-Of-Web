@@ -1,16 +1,47 @@
 h1 {
-    color: green;
+    color: rgb(29, 197, 29);
     text-align: center;
     text-shadow: 2px 2px 3px black;
 }
 
 h2 {
     color: red;
+    text-align: center;
+    font-size: 40px;
 }
 
 body{
-    background-color: aqua;
-    margin: 30px;
+    background-color: rgb(7, 165, 165);
+    margin: 30px;   
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.product{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+ 
+}
+
+.card{
+    height: 450px;
+    width: 380px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.15);
+    background: linear-gradient(rgb(194, 188, 187),rgb(61, 10, 7));
+}  
+
+.card img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1.6s;
 }
 
 /* p{
@@ -19,20 +50,17 @@ body{
     font-family: sans-serif;
 } */
 
-img{
-    /* border-top: 2px;
-    border-left: 5px;
-    border-style: solid;
-    border-color: brown; */
-    /* border: 5px solid black; */
-    border-radius: 30px;
-    /* padding: 5px; */
-    box-shadow: 5px 5px 5px black;
-    margin-bottom: 30px;
+.card .info{
+    transition: 1s;
+    opacity: 0;
 }
 
-.purple-text{
-    color: blueviolet;
+.card:hover .info{
+    transform:translateY(-120px);
+    opacity: 1;
+}
+.yellow-text{
+    color: rgb(236, 236, 26);
     font-size: 25px;
     font-family: sans-serif;
 }
@@ -46,11 +74,11 @@ img{
     background-color: hotpink;
 } */
 
-.container{
-    display: flex;
-    /* justify-content: flex-start;
-    justify-content: flex-end;
-    justify-content: center;
-    justify-content: space-between; */
-    justify-content: space-around;
+
+.bt{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border:none;
+
 }
