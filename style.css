@@ -28,7 +28,7 @@ body{
 }
 
 
-.product{
+.container{
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
