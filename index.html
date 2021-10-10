@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,37 +11,42 @@
 
 <body>
     <h1>Wizards of web</h1>
-    <h2>This is h2 heading</h2>
-    <img src="cat.jpg" alt="This is a cat image" width="50%" height="40%">
+    <br><br>
+    <h2>ABOUT CATS</h2>
     <br>
-    <input type="button" value="cat alert" onclick="msg()">
-
     <div class="container">
-        <div>
-            <p class="purple-text">
-                para 1 <br>
-                Smelly cat..smelly cat <br>
-                What are they feeding you
-            </p>
+        <div class="card">
+            <img src="cat.jpg">
+            <div class="info">
+                <p class="purple-text">
+                    Smelly cat..smelly cat <br>
+                    What are they feeding you
+                </p>
+            </div>
         </div>
 
-        <div>
-            <p id="red-text">
-                para 2 <br>
-                Smelly cat..smelly cat <br>
-                Its not your fault
-            </p>
+        <div class="card">
+            <img src="cat2.jpg">
+            <div class="info">
+                <p class="red-text">
+                    Smelly cat..smelly cat <br>
+                    Its not your fault
+                </p>
+            </div>
         </div>
 
-        <div>
-            <p class="purple-text">
-                para 3 <br>
-                Smelly cat..smelly cat <br>
-                Its not your fault
-            </p>
+        <div class="card">
+            <img src="cat3.jpg">
+            <div class="info">
+                <p class="yellow-text">
+                    Smelly cat..smelly cat <br>
+                    Its not your fault
+                </p>
+            </div>
         </div>
     </div>
-
+    <br><br><br><br>
+    <input type="button" class="bt" value="cat alert" onclick="msg()">
 </body>
 <script>
     function msg() {
